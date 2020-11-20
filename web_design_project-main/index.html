@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+        <title>Home Page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body>
+    <div>
+    <img class="img_align"src="images/logo.png" width="57" height="57"/> 
+    <span><strong>The Economic Times</strong></span>
+    </div>
+        
+    <p>PST <span id="datetime"></span></p>
+    <script>
+        var dt = new Date();
+        document.getElementById("datetime").innerHTML = dt.toLocaleString();
+    </script>
+    
+    <div class="menu-bar">
+        
+    <ul>
+    <li>Home</li>
+    <li>Markets</li>
+    <li>News</li>
+    <li>Industry</li>
+    <li>Mutual Fund</li>
+    <li>Tech</li>
+    <li>Jobs</li>
+    <li>Opinion</li>
+    <li>Panache</li>
+    <li>ET Now</li>
+        </ul>
+    </div>
+
+</body>
+<footer>
+    <strong>Follow Us</strong>
+        <ul>
+            <li><a href="https://www.facebook.com/EconomicTimes/" target="blank"><img src="images/facebook.png"></li>
+            <li><a href="https://www.instagram.com/the_economic_times/" target="blank"><img src="images/instagram.png"></li>
+            <li><a href="https://twitter.com/EconomicTimes" target="blank"><img src="images/twitter.png"></li>
+            <li><a href="https://www.youtube.com/channel/UCJFOER35ggIWwsXh2ZDnqyg" target="blank"><img src="images/youtube-logo-hd-8.png" height="24px"></li>
+        </ul>
+</footer>
+</html>

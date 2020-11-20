@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.jpg.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.img_align {
+    vertical-align: middle;
+    
+}
+
+span strong {
+    font-family: georgia;
+    font-size: 33px;
+    
+}
+
+.menu-bar {
+    background: #000000b7;
+    text-align: left;
+    
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+
+}
+
+.menu-bar ul li {
+    color: rgb(255, 255, 255);
+width: 74px;
+margin: 15px;
+padding: 5px;
+}
+
+
+footer {
+    background-color: rgba(0, 0, 0, 0.548);
+}
+
+footer strong {
+    color: rgb(255, 255, 255);
+}
+
+.flr section{
+    background-color: red;
+}
+
+
+
